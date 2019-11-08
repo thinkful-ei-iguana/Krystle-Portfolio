@@ -5,11 +5,11 @@ body {
 }
 
 body {
-  background: #FFB8EC;
+  background:#85ACCC;
   position: relative;
 }
 
-.profile-link {
+.page-link {
   color: ##BBB8FF;
   font-size: 12px;
   display: block;
@@ -22,7 +22,7 @@ body {
 
 a:hover,
 a:visited:hover {
-  color: #BCA7E8;
+  color: #135285;
 }
 
 a:visited {
@@ -123,15 +123,16 @@ a:visited {
 }
 
 .square-one .inner {
-  background: #B9A7E8;
+  background: #135285;
 }
 
 .square-two .inner {
-  background: #2B35FF;
+  background: #59B4FF;
+
 }
 
 .square-three .inner {
-  background: #FF24F0;
+  background: #536B80;
 }
 
 .details {
