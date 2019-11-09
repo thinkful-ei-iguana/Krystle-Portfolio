@@ -72,13 +72,6 @@ a:visited {
   margin: 0 auto;
 }
 
-.glumac {
-  position: absolute;
-  color: white;
-  left: 144px;
-  top: 144px;
-}
-
 .square {
   /* border: 1px solid orange; */
   position: absolute;
@@ -137,6 +130,6 @@ a:visited {
 
 .details {
   color: white;
-  font-family: 'Arial', Arial, Helvetica, sans-serif;
+  font-family: 'Ovo', serif;
   /* border: 1px solid red; */
 }
