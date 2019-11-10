@@ -5,14 +5,7 @@
     
     h1 {
         color: #135285;
-        font-family: 'Ovo', serif;
-    }
-    
-    .header img {
-    height: 200px;
-    margin: 40px 0px 0px 0px;
-    border: 7px solid white;
-    border-radius: 20px;
+        font-family: 'Big Shoulders Text';
     }
     
     article img {
@@ -20,16 +13,12 @@
     width: 200px;
     margin: 40px 0px 0px 40px;
     border: 2px solid #135285;
-   
     
-    }
-    a {
-    color:white;
     }
     
     ul {
     padding: 10px;
-    background: rgba(241, 236, 236, 0.5);
+    background: white;
     }
     
     li {
@@ -41,11 +30,11 @@
     max-width: 500px;
     padding: 20px;
     margin: 0 auto;
-    background: #85ACCC;
+    background: white;
     border: 4px solid #135285;
     color: #135285;
     font-family: 'Ovo', serif;
-    
+    font-family: 'Big Shoulders Text';
     }
     
     h2 {
@@ -57,11 +46,29 @@
     }
     body
     {
-    background: #85ACCC;
+    background: white;
     }
     
     footer {
-    text-align: left;
-    color: white;
-    font-family: 'Muli', sans-serif;
+    text-align: center;
+    color: #135285;
+    font-family: 'Ovo', serif;
+    font-family: 'Big Shoulders Text';
     }
+
+    a:hover,
+    a:visited:hover {
+      color: #135285;
+    }
+    
+    a:visited {
+      color: #135285
+    }
+    
+      
+
+    @media only screen and (max-width: 600px) {
+    .image {
+    display: block;
+    margin-bottom: 10px;
+        }
