@@ -1,13 +1,14 @@
 html,
-body {
+  body {
   margin: 0;
   padding: 0;
-}
-
-body {
+  }
+  
+ 
+  body {
   background:#85ACCC;
   position: relative;
-}
+  }
 
 .page-link {
   color: ##BBB8FF;
@@ -135,8 +136,6 @@ a:visited {
   /* border: 1px solid red; */
 }
 
-@media only screen and (max-width: 600px) {
-  .image {
-    display: block;
-    margin-bottom: 10px;
-  }
+
+
+
