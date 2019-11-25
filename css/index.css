@@ -1,4 +1,21 @@
 html,
+
+body {
+  /* default styles here, 
+     targets mobile first */
+}
+
+@media screen and (min-width:480px) {
+body {
+  /* style changes when the screen gets larger */
+}
+}
+
+@media screen and (min-width:800px) {
+body {
+   /* And even larger */
+}
+}
   body {
   margin: 0;
   padding: 0;
