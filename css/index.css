@@ -1,8 +1,11 @@
 html,
-
 body {
-  /* default styles here, 
-     targets mobile first */
+
+    margin: 0;
+    padding: 0;
+    background:#85ACCC;
+    position: relative;
+    }
 }
 
 @media screen and (min-width:480px) {
@@ -16,16 +19,7 @@ body {
    /* And even larger */
 }
 }
-  body {
-  margin: 0;
-  padding: 0;
-  }
-  
- 
-  body {
-  background:#85ACCC;
-  position: relative;
-  }
+
 
 .page-link {
   color: ##BBB8FF;
