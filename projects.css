@@ -1,9 +1,7 @@
-    header {
-    text-align: center;
-    background-size: cover;
-    }
+
     
     h1 {
+        text-align: center;
         color: #135285;
         font-family: 'Big Shoulders Text';
     }
@@ -21,7 +19,7 @@
     }
     
     article {
-    max-width: 500px;
+    min-width: 500px;
     padding: 20px;
     margin: 0 auto;
     background: white;
@@ -61,7 +59,7 @@
     
       
 
-    @media only screen and (max-width: 600px) {
+    @media only screen and (min-width: 600px) {
     .image {
     display: block;
     margin-bottom: 10px;
