@@ -20,6 +20,6 @@ document.addEventListener('DOMContentLoaded', function () {
     $wrap.onmouseover = shrinkThat;
     $wrap.onmouseleave = expandThat;
   
-    setTimeout(expandThat, 1000);
+    setTimeout(expandThat, 500);
   
   }, false);
